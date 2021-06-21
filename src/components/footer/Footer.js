@@ -1,4 +1,5 @@
 import React from "react";
+import cvPdf from "../../media/cv.pdf";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,7 +8,9 @@ const Footer = () => {
       <div className="footer-info">
         <h1>Alejandro Guamanquispe</h1>
         <p>Ecuador, Guayaquil</p>
-        <a className="download" href="path_to_file" download="proposed_file_name">DOWNLOAD CV</a>
+        <a className="download" href={cvPdf} download="ALEJANDRO_GUAMANQUISPE">
+          DOWNLOAD CV
+        </a>
       </div>
       <div className="footer-contact">
         <h3>Contact me</h3>
@@ -16,7 +19,11 @@ const Footer = () => {
       <div className="footer-sns">
         <div className="design-by">Design By Alejandro</div>
         <div className="sns-links">
-          <a href="https://www.linkedin.com/in/alejandro-guamanquispe-12374820b/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/alejandro-guamanquispe-12374820b/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fab fa-linkedin linkedin"></i>
           </a>
           <a href="https://twitter.com" target="_blank" rel="noreferrer">
