@@ -2,10 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Netlify Link
-
-### `https://vigilant-cray-9e498d.netlify.app/#/pokedex`
-
 ## Available Scripts
 
 In the project directory, you can run:
