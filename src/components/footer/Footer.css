@@ -20,6 +20,9 @@
 .footer-info > h1 {
   padding-bottom: 15px;
 }
+.footer-info > p {
+  padding-bottom: 15px;
+}
 
 .footer-contact {
   font-size: 22px;
@@ -66,6 +69,18 @@
 .design-by {
   font-size: 18px;
   padding-left: 50px;
+  color: white;
+}
+
+.download{
+  border: 2px solid #E48528;
+  color: #E48528;
+  text-decoration: none;
+  padding: 8px;
+  font-size: 16px;
+}
+.download:hover{
+  background-color: #E48528;
   color: white;
 }
 

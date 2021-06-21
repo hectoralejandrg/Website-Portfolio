@@ -1,33 +1,38 @@
 import React from "react";
 import "./Slider.css";
+import imgPokedex from "../../media/imgPokedex.jpg";
+import imgWeather from "../../media/imgWeather.jpg";
+import imgToDoApp from "../../media/imgToDoApp.jpg";
 
 const slidesInfo = [
   {
-    src:
-      "https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_960_720.jpg",
-    alt: "Project 1",
-    desc: "Project 1",
+    src: imgPokedex,
+    alt: "Image Pokedex",
+    desc: "Pokedex",
+    url: "https://github.com/hectoralejandrg/pokedex-react",
   },
   {
-    src:
-      "https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg",
-    alt: "Project 2",
-    desc: "Project 2",
+    src: imgWeather,
+    alt: "Weather App",
+    desc: "Weather App",
+    url: "https://github.com/hectoralejandrg/weatherapp",
   },
   {
-    src:
-      "https://cdn.pixabay.com/photo/2015/02/05/08/06/macbook-624707_960_720.jpg",
-    alt: "Project 3",
-    desc: "Project 3",
+    src: imgToDoApp,
+    alt: "To Do App",
+    desc: "To Do App",
+    url: "https://github.com/hectoralejandrg/todoapp-react",
   },
 ];
 
 const slides = slidesInfo.map((slide) => (
   <div className="slide-container">
-    <img src={slide.src} alt={slide.alt} />
-    <div className="slide-desc">
-      <span>{slide.desc}</span>
-    </div>
+    <a href={slide.url} target="_blank" rel="noreferrer">
+      <img src={slide.src} alt={slide.alt} />
+      <div className="slide-desc">
+        <span>{slide.desc}</span>
+      </div>
+    </a>
   </div>
 ));
 

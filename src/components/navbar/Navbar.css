@@ -19,4 +19,11 @@
   line-height: 80px;
   color: white;
   cursor: pointer;
+  letter-spacing: 8px;
+  font-weight: 400;
+}
+.navbar-logo > span{
+  color: #E48528;
+  letter-spacing: 8px;
+  font-weight: 400;
 }
