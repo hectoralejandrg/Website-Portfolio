@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="design-by">Design By Alejandro</div>
         <div className="sns-links">
           <a
-            href="https://www.linkedin.com/in/alejandro-guamanquispe-12374820b/"
+            href="www.linkedin.com/in/alejandroguamanquispe/"
             target="_blank"
             rel="noreferrer"
           >
